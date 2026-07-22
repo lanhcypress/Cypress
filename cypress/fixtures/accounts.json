@@ -1,4 +1,3 @@
-//Lưu mật khẩu và thông tin đăng nhập của người dùng vào tệp JSON để sử dụng trong các bài kiểm tra tự động với Cypress.
 {
   "user": {
     "email": "user@example.com",
