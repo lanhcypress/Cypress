@@ -13,7 +13,7 @@ describe('UI Automation Test - SauceDemo Ecommerce', () => {
     // Xác trị thông báo lỗi hiển thị đúng
     cy.get('[data-test="error"]')
       .should('be.visible')
-      .and('contain', 'Epic sadface: Password whatsoever');
+      .and('contain', 'Epic sadface: Username and password do not match any user in this service');
   });
 
   it('TC02: Đăng nhập thành công và thêm sản phẩm vào giỏ hàng', () => {
