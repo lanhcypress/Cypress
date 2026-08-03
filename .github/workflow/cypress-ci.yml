@@ -3,9 +3,9 @@ name: Cypress Automation Test CI
 # Kích hoạt hành động: Cứ có ai push code lên nhánh "main" là chạy test
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
 
 jobs:
   cypress-run:
