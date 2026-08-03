@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "npx cypress open", 
+    "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
     "cy:run:chrome": "npx cypress run --browser chrome",
     "test:spec": "npx cypress run --spec \"cypress/e2e/spec.cy.js\"",
@@ -17,6 +17,8 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "cypress": "^15.18.1"
+    "@4tw/cypress-drag-drop": "^2.3.1",
+    "cypress": "^15.18.1",
+    "cypress-file-upload": "^5.0.8"
   }
 }
