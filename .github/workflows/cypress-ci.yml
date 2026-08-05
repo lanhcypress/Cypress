@@ -21,4 +21,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           # Truyền câu lệnh script bạn muốn chạy (đã khai báo trong package.json)
+          headed: true       # Ép chạy có giao diện trên máy ảo
+          browser: chrome    # Sử dụng trình duyệt Chrome thay vì Electron mặc định
           command: npm run test:staging

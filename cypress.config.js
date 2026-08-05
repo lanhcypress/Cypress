@@ -5,7 +5,8 @@ module.exports = defineConfig({
 
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      config.pageLoadTimeout = 120000; // Tăng thời gian chờ tải trang lên 2 phút (120s)
+      config.defaultCommandTimeout = 10000; // Tăng thời gian chờ tìm Element lên 10 giây // implement node event listeners here
     },
   },
 });

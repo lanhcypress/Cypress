@@ -9,6 +9,7 @@ describe('Elements-Check checkbox, radiobutton, dropdown', () => {
       })
       .invoke('removeAttr', 'target') // Bẻ gãy tính năng mở tab mới của thẻ <a>
       .click();
+    cy.url().should('include', 'Dropdown-Checkboxes-RadioButtons');
   })
   /** * afterEach(() => {
      cy.go('back'); // Quay trở lại trang trước đó
